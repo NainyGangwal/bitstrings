@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
  
-int bitstrings(int n)
+unsigned long int bitstrings(int n)
 {
     unsigned long int a[n], b[n];
     const unsigned int M = 1000000007;
